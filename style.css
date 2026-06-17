@@ -126,5 +126,11 @@ body{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0;
-    font-size: 24px;
+    font-size: 24px;label{
+    font-size: 20px;
 }
+}
+label{
+    font-size: 20px;
+}
+
