@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
 
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔒 Gerador de Senhas</h1>
+
+    <p class="subtitulo">
+        Gere instantaneamente uma senha aleatória e segura
+    </p>
+
+    <div class="senha-box">
+        <span>Senha</span>
+
+        <h2 id="senha">Clique em Gerar</h2>
+    </div>
+
+    <div class="painel">
+
+        <h2>Personalize sua senha</h2>
+
+        <div class="conteudo">
+
+            <div class="tamanho">
+
+                <p>Número de caracteres</p>
+
+                <div class="contador">
+
+                    <button id="menos">-</button>
+
+                    <span id="valor">12</span>
+
+                    <button id="mais">+</button>
+
+                </div>
+
+            </div>
+
+            <div class="opcoes">
+
+                <p>Características</p>
+
+                <label>
+                    <input type="checkbox" id="maiusculas" checked>
+                    Letras maiúsculas
+                </label>
+
+                <label>
+                    <input type="checkbox" id="minusculas" checked>
+                    Letras minúsculas
+                </label>
+
+                <label>
+                    <input type="checkbox" id="numeros" checked>
+                    Números
+                </label>
+
+                <label>
+                    <input type="checkbox" id="simbolos">
+                    Símbolos
+                </label>
+
+            </div>
+
+            <div class="forca">
+
+                <p>Força da senha</p>
+
+                <div class="barra">
+
+                    <div id="nivel"></div>
+
+                </div>
+
+                <div class="texto">
+
+                    <span>Fraca</span>
+                    <span>Média</span>
+                    <span>Forte</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="gerar" id="gerarSenha">
+            Gerar Senha
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
