@@ -1,1 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+body{
+    background:#081b37;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:720px;
+}
+
+.titulo{
+    text-align:center;
+    color:#fff;
+    margin-bottom:30px;
+}
+
+.titulo h1{
+    margin:10px 0;
+    font-size:36px;
+}
+
+.titulo p{
+    color:#bfcbe2;
+}
+
+.icone{
+    width:45px;
+}
+
+.senha-box{
+    background:#0d2b59;
+    color:white;
+    padding:20px;
+    border-bottom:4px solid #2c7dff;
+    margin-bottom:25px;
+}
+
+.senha-box span{
+    font-size:14px;
+    color:#d2d9e6;
+}
+
+.senha-box h2{
+    margin-top:10px;
+    font-size:34px;
+    font-weight:normal;
+}
+
+.config{
+    border:1px solid #2c7dff;
+    padding:30px;
+    color:white;
+}
+
+.config h2{
+    margin-bottom:30px;
+}
+
+.conteudo{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.caracteres,
+.opcoes,
+.forca{
+    width:30%;
+}
+
+.caracteres p,
+.opcoes p,
+.forca p{
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.contador{
+    display:flex;
+    align-items:center;
+}
+
+.contador button{
+    width:40px;
+    height:40px;
+    background:#123d7a;
+    color:white;
+    border:1px solid #2c7dff;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.contador span{
+    width:45px;
+    height:40px;
+    border:1px solid #2c7dff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.opcoes label{
+    display:block;
+    margin-bottom:12px;
+}
+
+input[type="checkbox"]{
+    margin-right:8px;
+}
+
+.barra{
+    width:180px;
+    height:18px;
+    background:#173766;
+    margin-bottom:10px;
+}
+
+.nivel{
+    width:35%;
+    height:100%;
+    background:#ff2b52;
+}
+
+.texto{
+    display:flex;
+    justify-content:space-between;
+    width:180px;
+    font-size:14px;
+}
+
+button:hover{
+    background:#2c7dff;
+    transition:.3s;
+}
